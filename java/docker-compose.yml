@@ -4,6 +4,6 @@ services:
         ports: 
             - "8080:8080"
         container_name: tomcatwebserver
-        volumes:
+        #volumes:
           - ./html:/opt/apache-tomcat-9.0.106/webapps
-        network_mode: "host"
+        #network_mode: "host"
