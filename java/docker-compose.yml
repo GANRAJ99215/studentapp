@@ -6,4 +6,4 @@ services:
         container_name: tomcatwebserver
         volumes:
           - ./html:/opt/apache-tomcat-9.0.106/webapps
-        networks_mode: "host"
+        network_mode: "host"
